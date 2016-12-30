@@ -2,7 +2,7 @@
 .primary_header {
               background: #89c;
               float: center;
-              font-family: courier;
+              font-family:comic sans-serif;
               box-shadow: 10px 10px 10px 1px #444;
               text-shadow: 1px 1px 1px rgba(10, 10, 10, 1);
               position: relative;
@@ -12,12 +12,21 @@
               border-width: 2px;
  }
 
+
 p.aside {
 
         font-color: #000000;
         font-family: courier;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
         letter-spacing: -1px;
         padding: 2px;
+}
+
+p.main {
+        font-family: lucida console;
+        font-size: 30px;
+        margin: 5px;
+        letter-spacing: .5px;
 }
 
 body {
@@ -25,4 +34,6 @@ body {
         background: -webkit-linear-gradient(#d9ffff, #8294ac);
         background:    -moz-linear-gradient(#d9ffff, #8294ac);
         background:         linear-gradient(#d9ffff, #8294ac);
+        padding-bottom: 50%;
+        float: center;
 }
